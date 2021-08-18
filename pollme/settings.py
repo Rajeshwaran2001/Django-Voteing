@@ -77,12 +77,31 @@ WSGI_APPLICATION = 'pollme.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+ 'default': {
+
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'daavloocvf1onh',
+
+       'USER': 'qjwxpdvzfdhyop',
+
+        'PASSWORD': 'e5379856f35417de7d8797f30e1bebd3ef4f2749e6f08dc3905e54c0964075bb',
+
+         'HOST': 'ec2-44-195-247-84.compute-1.amazonaws.com',
+
+        'PORT': '5432',
+
     }
-}
+
+ }
 
 
 

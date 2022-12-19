@@ -3,6 +3,6 @@ asgiref==3.5.2
 distlib==0.3.6
 Django==3.2.16
 filelock==3.8.2
-pytz==2022.6
+pytz==2022.7
 six==1.16.0
 sqlparse==0.4.3

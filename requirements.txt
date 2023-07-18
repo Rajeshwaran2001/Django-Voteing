@@ -1,6 +1,6 @@
 appdirs==1.4.4
 asgiref==3.7.2
-distlib==0.3.6
+distlib==0.3.7
 Django==3.2.20
 filelock==3.12.2
 pytz==2023.3

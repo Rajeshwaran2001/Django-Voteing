@@ -1,7 +1,7 @@
 appdirs==1.4.4
 asgiref==3.8.0
 distlib==0.3.8
-Django==5.0.3
+Django==5.0.4
 filelock==3.13.1
 pytz==2024.1
 six==1.16.0

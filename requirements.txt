@@ -5,4 +5,4 @@ Django==5.0.4
 filelock==3.13.3
 pytz==2024.1
 six==1.16.0
-sqlparse==0.4.4
+sqlparse==0.5.0
